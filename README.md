@@ -4,8 +4,8 @@ This README would normally document whatever steps are necessary to get your app
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
+* This post-processing tool calculates the total kinetic energy in our domain for any time folder. It can be used for compressible and incompressible fluids
+* Version 1.0
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
 ### How do I get set up? ###
