@@ -12,8 +12,7 @@ This README  includes the steps which are necessary to get this application up a
 * Developed by [Holzmann-cfd](https://holzmann-cfd.de)
 
 ### How do I get set up? ###
-* Feel free to compile it where ever you want, but normally its nice to have a fixed folder for 
-> _user compiled_  stuff
+* Feel free to compile it where ever you want, but normally its nice to have a fixed folder for _user compiled stuff_
 * Make a new folder
 > mkdir -p $FOAM_RUN/../OpenFOAM_extensions
 * Switch to the new folder
