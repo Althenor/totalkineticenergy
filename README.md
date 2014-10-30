@@ -25,7 +25,6 @@ This README  includes the steps which are necessary to get this application up a
 > wmake
 * Finished
 
-
 ### Contribution guidelines ###
 * If you have questions, hints or any suggestions please email me to Tobias.Holzmann@Holzmann-cfd.de
 
