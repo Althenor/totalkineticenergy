@@ -27,7 +27,7 @@ This README  includes the steps which are necessary to get this application up a
 
 
 ### Contribution guidelines ###
-* If you have questions, hints or any suggestions please email me
+* If you have questions, hints or any suggestions please email me to Tobias.Holzmann@Holzmann-cfd.de
 
 ### Other stuff ###
 * Thank to Alexander Vakrushev for a short introduction to the C++ OpenFOAM functions
