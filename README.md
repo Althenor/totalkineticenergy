@@ -19,7 +19,7 @@ This README  includes the steps which are necessary to get this application up a
 * Switch to the new folder
 > cd $FOAM_RUN/../OpenFOAM_extensions
 * Clone the repository to the new folder
-> git clone https://Shor-ty@bitbucket.org/Shor-ty/totalkineticenergy.git
+> git clone https://shor-ty@bitbucket.org/shor-ty/totalkineticenergy.git
 * Switch to the repository directory
 > cd totalKineticEnergy
 * Compile the application
