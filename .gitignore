@@ -1,0 +1,13 @@
+*~
+*swp
+
+dependencies
+dependencyFiles  
+dontIncludeDeps  
+files  
+filesMacros  
+includeDeps  
+*.o  
+localObjectFiles  
+objectFiles   
+sourceFiles
