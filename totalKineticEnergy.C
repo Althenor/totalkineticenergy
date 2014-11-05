@@ -62,7 +62,7 @@ void calcCompressibleTotalKineticEnergy
     Info << "Reading field rho\n" << endl;
     volScalarField rho(rhoHeader, mesh);
 
-    dimensionedScalar totalKE("totalKE", dimensionSet(1,2,-2,0,0,0,0), sum(0.5*(U&U)*mesh.V()*rho));	
+    dimensionedScalar totalKE("totalKE", dimensionSet(1,2,-2,0,0,0,0), gSum(0.5*(U&U)*mesh.V()*rho));	
     Info << "    Total kinetic energy: " << totalKE.value() << " [J]\n" << endl;
 }
 
@@ -89,7 +89,7 @@ void calcIncompressibleTotalKineticEnergy
 
     dimensionedScalar rhoConst (transportProperties.lookup("rho"));
 
-    dimensionedScalar totalKE("totalKE", dimensionSet(1,2,-2,0,0,0,0), sum(0.5*(U&U)*mesh.V()*rhoConst.value()));
+    dimensionedScalar totalKE("totalKE", dimensionSet(1,2,-2,0,0,0,0), gSum(0.5*(U&U)*mesh.V()*rhoConst.value()));
     
     if (totalKE.dimensions() == ( U.dimensions()* U.dimensions() * rhoConst.dimensions() * mesh.V().dimensions()))
     {
