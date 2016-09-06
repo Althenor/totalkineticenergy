@@ -4,6 +4,7 @@ This README  includes the steps which are necessary to get this application up a
 
 ### OpenFOAM Versions ###
 * Generated for Version 2.3.x
+* Generated for Version 3.0.x
 * Generated for Version 4.x
 
 ### What is this repository for? ###
